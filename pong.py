@@ -18,7 +18,7 @@ dx, dy = 4, 3
 
 
 def show_score():
-    canvas.itemconfig(score_text, text=f"{score[0]} : {score[1]}")
+    canvas.itemconfig(score_text, text="")  # TODO: Punkte anzeigen
 
 
 def move_paddle(paddle, amount):
