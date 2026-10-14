@@ -2,7 +2,7 @@
 import tkinter as tk
 
 WIDTH, HEIGHT = 640, 360
-PADDLE_STEP = 22
+PADDLE_STEP = 222
 
 window = tk.Tk()
 window.title("Pong | Git-Labor")
