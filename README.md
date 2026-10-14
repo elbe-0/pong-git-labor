@@ -16,7 +16,8 @@ Sie müssen kaum programmieren. Im Mittelpunkt stehen die **Git-Befehle**.
 2. Prüfen Sie, ob **Git** installiert ist: `git --version`
 3. Prüfen Sie, ob **Python mit Tk** installiert ist: `python3 -m tkinter` (unter Windows: `py -m tkinter`).
    Es muss sich ein kleines Fenster öffnen. Falls nicht:
-   - macOS (Homebrew): `brew install python-tk`
+   - macOS: Das von Apple vorinstallierte Python (`/usr/bin/python3`) ist ungeeignet, da sich das Fenster nicht öffnen lässt.
+     Installieren Sie Python von <https://www.python.org/downloads/> oder mit Homebrew: `brew install python python-tk`
    - Linux: `sudo apt install python3-tk`
    - Windows: Python von python.org erneut installieren und dabei „tcl/tk and IDLE“ auswählen
 4. Hinterlegen Sie einmalig Ihren Namen und Ihre E-Mail-Adresse für Git:
